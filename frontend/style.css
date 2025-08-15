@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #eaf6f6;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #008080;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+form input, form button {
+    flex: 1 1 45%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b2dfdb;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+form button {
+    background: #008080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button:hover {
+    background: #005f5f;
+}
+
+#especiesList {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+#especiesList li {
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 18px 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    position: relative;
+    display: block;
+}
+
+#especiesList strong {
+    color: #008080;
+}
+
+#especiesList button {
+    margin-left: 10px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#especiesList button:hover {
+    background: #c0392b;
+}
+
+#especiesList a {
+    color: #008080;
+    text-decoration: underline;
+    word-break: break-all;
+}

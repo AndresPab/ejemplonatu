@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Natupedia CRUD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>CRUD de Especies</h1>
+    <form id="especieForm">
+        <input type="hidden" name="id" id="especieId">
+        <input type="text" name="nombre_cientifico" placeholder="Nombre científico" required>
+        <input type="text" name="nombre_comun" placeholder="Nombre común" required>
+        <input type="text" name="descripcion" placeholder="Descripción">
+        <input type="text" name="tipo" placeholder="Tipo (animal/planta)" required>
+        <input type="text" name="imagen_url" placeholder="URL de imagen">
+        <input type="text" name="alertas" placeholder="Alertas">
+        <input type="text" name="cuidados_basicos" placeholder="Cuidados básicos">
+        <input type="text" name="peso_o_clasificacion" placeholder="Peso o clasificación">
+        <input type="text" name="dieta_o_altura" placeholder="Dieta o altura">
+        <input type="text" name="nivel_actividad_o_floracion" placeholder="Nivel de actividad o floración">
+        <input type="text" name="socializacion_o_exposicion_riego" placeholder="Socialización o exposición/riego">
+        <input type="text" name="precauciones" placeholder="Precauciones">
+        <button type="submit" id="submitBtn">Agregar especie</button>
+        <button type="button" id="cancelEditBtn" style="display:none;">Cancelar edición</button>
+    </form>
+    <ul id="especiesList"></ul>
+</body>
+</html>
